@@ -76,16 +76,54 @@ body {
   
   /* styles.css */
 
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .photo-grid img {
+    width: 160px;
+    height: auto;
+    margin: 5px;
+
+  }
+
+  /*
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .photo-grid img {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin: 5px;
+  }
+  
+*/
+
+  
+/*
 .photo-gallery {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .photo-gallery img {
     width: 200px;
     height: auto;
     margin-right: 10px;
   }
+  */
+  
+ 
+  
+
+  
+  
   
   /* styles.css */
 
