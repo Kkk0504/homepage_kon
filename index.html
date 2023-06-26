@@ -5,6 +5,12 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
   <script src="script.js"></script>
+  <style>
+    .photo-grid img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -31,7 +37,6 @@
         <img src="images/IMG_2817.jpg" alt="写真5" onclick="openImage(this)">
         <img src="images/IMG_5872.jpg" alt="写真6" onclick="openImage(this)">
       </div>
-      <!-- 追加の行や写真を必要に応じて繰り返し追加してください -->
     </section>
 
     <section>
@@ -53,30 +58,34 @@
         <li>Content Writing</li>
       </ul>
     </section>
-<section>
-  <h2>Gallery</h2>
-  <div class="photo-grid">
-    <img src="images/IMG_9374.jpg" alt="写真1" onclick="openImage(this)">
-    <img src="images/IMG_9840.jpg" alt="写真2" onclick="openImage(this)">
-    <img src="images/IMG_9844.jpg" alt="写真3" onclick="openImage(this)">
-    <img src="images/IMG_2979.jpg" alt="写真3" onclick="openImage(this)">
-    <!-- 追加の画像をここに追加 -->
-    <img src="images/IMG_2817.jpg" alt="写真5" onclick="openImage(this)">
-    <img src="images/IMG_5872.jpg" alt="写真6" onclick="openImage(this)">
-    <img src="images/konLeg.jpg" alt="写真7" onclick="openImage(this)">
-    <img src="images/IMG_4404.jpg" alt="写真8" onclick="openImage(this)">
-  </div>
-</section>
-<section>
-  <h2>Thema Song</h2>
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/nAvjYapdSxk" frameborder="0" allowfullscreen></iframe>
-  </div>
-</section>
-</main>
-<footer>
-  <p>&copy; 2023 My Website. All rights reserved.</p>
-</footer>
+    
+    <section>
+      <h2>Gallery</h2>
+      <div class="photo-grid">
+        <img src="images/IMG_9374.jpg" alt="写真1" onclick="openImage(this)">
+        <img src="images/IMG_9840.jpg" alt="写真2" onclick="openImage(this)">
+        <img src="images/IMG_9844.jpg" alt="写真3" onclick="openImage(this)">
+        <img src="images/IMG_2979.jpg" alt="写真3" onclick="openImage(this)">
+        <!-- 追加の画像をここに追加 -->
+        <img src="images/IMG_2817.jpg" alt="写真5" onclick="openImage(this)">
+        <img src="images/IMG_5872.jpg" alt="写真6" onclick="openImage(this)">
+        <img src="images/konLeg.jpg" alt="写真7" onclick="openImage(this)">
+        <img src="images/IMG_4404.jpg" alt="写真8" onclick="openImage(this)">
+      </div>
+    </section>
+
+    <section>
+      <h2>Thema Song</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/nAvjYapdSxk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
 
